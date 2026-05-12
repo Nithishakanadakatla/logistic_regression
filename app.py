@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -130,7 +130,7 @@ if uploaded_file is not None:
             if prediction == 1:
                 st.success(f"✅ Loan Approved (1)\nProbability: {probability:.2f}")
             else:
-=======
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -262,5 +262,4 @@ if uploaded_file is not None:
             if prediction == 1:
                 st.success(f"✅ Loan Approved (1)\nProbability: {probability:.2f}")
             else:
->>>>>>> 187d65c (Initial commit: logistic regression app and dataset)
                 st.error(f"❌ Loan Rejected (0)\nProbability: {probability:.2f}")
